@@ -2,15 +2,11 @@
 
 public class TableUtilities {
     public static String getSmallMultiplicationTable() {
-      String result = "";
-      result = getMultiplicationTable(5);
-      return result;
+      return getMultiplicationTable(5);
     }
 
     public static String getLargeMultiplicationTable() {
-        String result = "";
-        result = getMultiplicationTable(10);
-        return result;
+        return getMultiplicationTable(10);
     }
 
     public static String getMultiplicationTable(int tableSize) {
